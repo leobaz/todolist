@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/leobaz/todolist/issues"
   },
-  "homepage": "https://github.com/leobaz/todolist#readme"
+  "homepage": "https://github.com/leobaz/todolist#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
