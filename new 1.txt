@@ -1,0 +1,45 @@
+{
+	name: "John",
+	age: 54,
+	city: "NYC",
+	comments: [
+		{text: "This is nice post"}
+	]
+	field: favoriteColor,
+	value: blue
+}
+
+{
+	name: "Isabella",
+	age: 31,
+	city: "Minnesota",
+	comments: [
+		{text: "Hello from the other side"},
+		{text: "I love coding"}
+	]
+	field: favoriteColor,
+	value: blue
+}
+
+{
+	name: "Will",
+	age: 23,
+	city: "LA",
+	comments: [
+		{text: "It's nice to be here"}
+	]
+	field: favoriteColor,
+	value: blue
+}
+
+{
+	name: "Lily",
+	age: 29,
+	city: "Washington",
+	comments: [
+		{text: "Come visit me"},
+		{text: "Techsperience is great"}
+	]
+	field: favoriteColor,
+	value: blue
+}

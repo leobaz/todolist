@@ -1,0 +1,13 @@
+<form method="POST" action="/todos/update/<%= doc._id %>">
+	<div>
+		<label>Todos title:</label>
+		<input type="text" value="<%= doc.title %>" name="title" placeholder="Add title">
+	</div>
+	<div>
+		<label>Todo description: </label>
+		<textarea name="description" placeholder="Add description">
+			<%= doc.description %>
+		</textarea>
+	</div>
+	<button type="submit">Save</button>
+</form>

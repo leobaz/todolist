@@ -1,0 +1,24 @@
+<% include partials/header %>
+
+<h3>Add Todos</h3>
+<form method="POST" action="/todos/add">
+	<div>
+		<label>Todos title:</label>
+		<input type="text" name="title" placeholder="Add title">
+	</div>
+	<div>
+		<label>Todo description: </label>
+		<textarea name="description" placeholder="Add description">
+		</textarea>
+	</div>
+	<button type="submit">Submit</button>
+</form>
+
+<h3>All Todos:</h3>
+<ol>
+	<% docs.map(function(doc){ %>
+		<li> <%= doc.title + ' ' + doc.description %> <a href="/todos/<%= doc._id %>">Show </a> <a href="/todos/edit/<%=doc._id %>">Edit </a> <a href="/todos/delete/<%=doc._id %>">Delete</a></li>
+
+	<% }); %>
+</ol>
+<% include partials/footer %>
